@@ -14,3 +14,6 @@ In deze oefening bootsen we het een login scherm na.
 4. Voeg een UIButton toe. 
   - Wanneer je op deze UIButton klikt ga je - indien je correcte gegevens hebt ingevuld - naar een volgende scherm.
   - Indien de gegevens niet correct zijn, toon je een UIAlertView aan de gebruiker.
+5. Luister naar de `UIKeyboardWillShowNotification`en `UIKeyboardWillHideNotification`. Gebruik `NSLog` om iets uit te printen wanneer je de notificaties ontvangt.
+  - Subscribe je bij het `NSNotificationCenter` in de `viewDidLoad` lifecycle methode.
+  - Unsubscribe je in de `dealloc` lifecycle methode.
