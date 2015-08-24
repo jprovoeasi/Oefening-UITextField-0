@@ -6,6 +6,7 @@ In deze oefening bootsen we het een login scherm na.
 1. Maak een nieuw project aan voor deze oefening.
 2. Voeg in het storyboard een UITextField toe aan de reeds bestaande UIViewController.
   - Sleep een UITextField object naar de UIViewController in het storyboard.
+  - Gebruik AutoLayout om het UITextField te positioneren.
   - Configureer de UIViewController als delegate van het UITextField. Vergeet niet aan te geven in de UIViewController dat deze controller het `UITextFieldDelegate` protocol implementeert.
   - Maak gebruik van de delegate methode `textFieldShouldReturn:` om het UITextField te resignen van de first responder status d.m.v. de methode `resignFirstResponder`.
   - Print een log (maak gebruik van `NSLog`) met de tekst van het UITextField in de delegate methode `textFieldDidEndEditing:`.
