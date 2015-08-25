@@ -2,6 +2,9 @@
 
 In deze oefening bootsen we het een login scherm na.
 
+## Tips
+1. Indien het keyboard niet verschijnt in de simulator, gebruik ⌘+K
+
 ## Opgaves
 1. Maak een nieuw project aan voor deze oefening.
 2. Voeg in het storyboard een UITextField toe aan de reeds bestaande UIViewController.
