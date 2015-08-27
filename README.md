@@ -1,6 +1,6 @@
 # Oefening-UITextField-0
 
-In deze oefening bootsen we het een login scherm na.
+In deze oefening boots je de werking van een login scherm na.
 
 ## Tips
 1. Indien het keyboard niet verschijnt in de simulator, gebruik ⌘+K
