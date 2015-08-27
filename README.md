@@ -20,3 +20,6 @@ In deze oefening bootsen we het een login scherm na.
 5. Luister naar de `UIKeyboardWillShowNotification`en `UIKeyboardWillHideNotification`. Gebruik `NSLog` om iets uit te printen wanneer je de notificaties ontvangt.
   - Subscribe je bij het `NSNotificationCenter` in de `viewDidLoad` lifecycle methode.
   - Unsubscribe je in de `dealloc` lifecycle methode.
+
+## Oplossing
+De oplossingen vind je terug onder de branch **oplossing** van deze repository.
