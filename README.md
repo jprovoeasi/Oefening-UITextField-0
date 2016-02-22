@@ -1,22 +1,24 @@
-# Oefening-UITextField-0
+# Exercise-UITextField-0
 
-In deze oefening bootsen we het een login scherm na.
+In this exercise you will copycat the behaviour of a login screen.
 
 ## Tips
-1. Indien het keyboard niet verschijnt in de simulator, gebruik ⌘+K
+1. In case the keyboard does not show up on the simulator the shortcut ⌘+K can be used.
 
-## Opgaves
-1. Maak een nieuw project aan voor deze oefening.
-2. Voeg in het storyboard een UITextField toe aan de reeds bestaande UIViewController.
-  - Sleep een UITextField object naar de UIViewController in het storyboard.
-  - Gebruik AutoLayout om het UITextField te positioneren.
-  - Configureer de UIViewController als delegate van het UITextField. Vergeet niet aan te geven in de UIViewController dat deze controller het `UITextFieldDelegate` protocol implementeert.
-  - Maak gebruik van de delegate methode `textFieldShouldReturn:` om het UITextField te resignen van de first responder status d.m.v. de methode `resignFirstResponder`.
-  - Print een log (maak gebruik van `NSLog`) met de tekst van het UITextField in de delegate methode `textFieldDidEndEditing:`.
-3. Voeg nu een tweede UITextField toe en configureer dit UITextField als een wachtwoord. Dit doe je vanuit het storyboard.
-4. Voeg een UIButton toe. 
-  - Wanneer je op deze UIButton klikt ga je - indien je correcte gegevens hebt ingevuld - naar een volgende scherm.
-  - Indien de gegevens niet correct zijn, toon je een UIAlertView aan de gebruiker.
-5. Luister naar de `UIKeyboardWillShowNotification`en `UIKeyboardWillHideNotification`. Gebruik `NSLog` om iets uit te printen wanneer je de notificaties ontvangt.
-  - Subscribe je bij het `NSNotificationCenter` in de `viewDidLoad` lifecycle methode.
-  - Unsubscribe je in de `dealloc` lifecycle methode.
+## Tasks
+1. Create a new project for this exercise.
+2. There is already a UIViewController in the storyboard, add a UITextField to is.
+  - Use AutoLayout to position the UITextField.
+  - Configure the UIViewController as a delegate of the UITextField. Don't forget that the UIViewController should indicate it conforms to the `UITextFieldDelegate` protocol.
+  - Use the delegate method `textFieldShouldReturn:` to resign the UITextField of the first responder status by using the method `resignFirstResponder`.
+  - Print a log (use method `NSLog`) containg the text of the UITextField in the delegate method `textFieldDidEndEditing:`.
+3. Add a second UITextField and configure this UITextField as a password. This can be done from storyboard.
+4. Add a UIButton that will server as the login button.
+  - When this button is clicked, you should proceed to the next screen in case the credentials are correct.
+  - In case the credentials are not correct, a UIAlertView should be displayed to the user.
+5. Listen to the `UIKeyboardWillShowNotification` and `UIKeyboardWillHideNotification`. Use `NSLog` to print anything upon receiving the notifications.
+  - Subscribe at the `NSNotificationCenter` in the `viewDidLoad` lifecycle methode.
+  - Unsubscribe in the `dealloc` lifecycle methode.
+
+## Solutions
+The solutions are available in the **oplossing** branch of this repository.
